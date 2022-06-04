@@ -1,4 +1,4 @@
-Feature: Calculate Holiday Entitlement
+Feature: Calculate Holiday Entitlement Based on Days Worked Per Week
 
     Background:
         Given I am on holiday entitlement homepage
