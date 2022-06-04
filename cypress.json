@@ -1,0 +1,6 @@
+{
+    "baseUrl": "https://www.gov.uk/calculate-your-holiday-entitlement",
+    "testFiles": "**/*.{feature,features}",
+    "video": false,
+    "ignoreTestFiles": [".mp4", "cypress/screenshots/*.feature"]
+}

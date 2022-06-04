@@ -1,0 +1,27 @@
+{
+  "name": "holiday_entitlement_calculator",
+  "version": "1.0.0",
+  "description": "A working automated UI test suite to calculate holiday entitlement using BDD",
+  "main": "index.js",
+  "scripts": {
+    "test:ui": "cypress open",
+    "test:headless": "cypress run"
+  },
+  "keywords": [
+    "Javascript",
+    "BDD",
+    "Cucumber"
+  ],
+  "author": "ola.ajala1@outlook.com",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^9.7.0",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
+  "devDependencies": {
+    "eslint": "^8.16.0"
+  }
+}

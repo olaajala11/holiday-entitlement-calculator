@@ -1,0 +1,9 @@
+# Cypress files
+/cypress/screenshots/
+/cypress/videos/
+
+# NPM files
+/node_modules/
+
+# MacOS
+.DS_Store
