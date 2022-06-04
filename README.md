@@ -20,15 +20,9 @@ and as stated in the requirement for the tasks, clear demonstration and ability 
 writing thousands of tests.
 
 # Installation
-HTTPS:
-https://github.com/olaajala11/holiday-entitlement-calculator.git
-
-OR
-
-GitHub CLI:
-gh repo clone olaajala11/holiday-entitlement-calculator
-
-npm install
+ - Clone via HTTPS: `https://github.com/olaajala11/holiday-entitlement-calculator.git`
+ - Clone via GitHub CLI: `gh repo clone olaajala11/holiday-entitlement-calculator`
+ - `npm install`
 
 # Running the tests
  - npm run test:ui
