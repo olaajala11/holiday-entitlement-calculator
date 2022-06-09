@@ -1,0 +1,31 @@
+
+###
+GET https://example.com/comments/1
+
+###
+GET https://example.com/topics/1 HTTP/1.1
+
+###
+GET https://example.com/comments?page=2&pageSize=10
+
+###
+GET https://alternative.me/crypto/fear-and-greed-index/
+
+
+###
+POST https://account.demandware.com/dwsso/oauth2/access_token
+Host: account.demandware.com
+Authorization: Basic Y2FhMzZkNmQtYmJkMC00MWJjLWExZDItODM4MjViNWIzN2I3OkxINSE3UURENWtjeQ==
+Content-Type: application/x-www-form-urlencoded
+
+grant_type=client_credentials
+
+###
+
+@baseUrl = development-emea-deckers.demandware.net
+@bearerToken = 6lkggIm69DODd3b9JF2tGB_4-u8
+@productId = 190108088540
+GET https://{{baseUrl}}/s/-/dw/data/v19_10/products/{{productId}} HTTP/1.1
+Host: development-emea-deckers.demandware.net
+Authorization: Bearer {{bearerToken}}
+Content-Type: application/json
